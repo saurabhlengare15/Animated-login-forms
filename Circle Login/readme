@@ -1,1 +1,1 @@
-keep index.html, Main_circle.css, jquerymain_circle.js in single folder.
+keep index.html, Main_circle.css, jquerymain_circle.js in single folder, and jquery-3.2.1.min file in js folder inside your main folder.
