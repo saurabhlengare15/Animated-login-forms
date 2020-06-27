@@ -1,0 +1,44 @@
+<html>
+<head>
+    <link href="main.css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="jquerymain.js"></script>
+
+    <style>
+body {
+  background-image: url('13.jpg');
+}
+</style>
+</head>
+    <body>
+        <div id="box">
+            <div id="main"></div>
+            <form action="form2.php" method="post">
+            <div id="loginform">
+                <h1>LOGIN</h1>
+                <input type="email" name="email" placeholder="Email"/><br>
+                <input type="password" name="password" placeholder="Password"/><br>
+                <button>LOGIN</button>
+            </div>
+            </form>
+            
+            <form action="form1.php" method="post">
+            <div id="signupform">
+                <h1>SIGN UP</h1>
+                <input type="text" name="fname" placeholder="Full Name"/><br>
+                <input type="email" name="email" placeholder="Email"/><br>
+                <input type="password" name="password" placeholder="Password"/><br>
+                <button>SIGN UP</button>
+            </div>
+            </form>
+            
+            <div id="login_msg">Already Have an Account?</div>
+            <div id="signup_msg">Don't Have an Account?</div>
+            
+            <button id="login_btn">LOGIN</button>
+            <button id="signup_btn">SIGN UP</button>
+            
+            
+        </div>
+    </body>
+</html>
